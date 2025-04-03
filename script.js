@@ -4,7 +4,7 @@ function validarformulario(event){
     var cidade = document.getElemenById('cidade').value;
 
 
-    let saberidade = "";
+    let resultado = "";
     if (idade < 18){
         resultado +=`você tem apenas ${idade} anos voce e menor de idade`;
     }
@@ -15,6 +15,6 @@ function validarformulario(event){
 
      resultado += `<br>Nome ${nome}`;
      resultado += `<br>Cidade ${cidade}`;
-
+    
      document.getElementById('resultado').innerHTML.resultado;
 }

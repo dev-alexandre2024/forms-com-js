@@ -14,5 +14,5 @@ div.form{
     height: 200px;
     border-radius: 20px;
     text-align: center;
-    
+    border : black 15px ridge ;
 }
