@@ -1,5 +1,5 @@
-function validarformulario(event){
-    var nome = document.getElemenById('nome').value;
+function validarformulario(){
+    var nome = document.getElementById('nome')
     var idade = parseInt(document.getElemenById('idade').value);
     var cidade = document.getElemenById('cidade').value;
 
@@ -18,9 +18,7 @@ function validarformulario(event){
     
      var h1 = document.getElementById('text')
      h1.textContent = Nome.value;   
-     var Nome = document.getElementById('Nome')
 
-     var Cidade = document.getElementById('Cidade')
      
      
 
