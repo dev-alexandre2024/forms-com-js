@@ -4,6 +4,7 @@ body{
     align-items: center;
     display: flex;
     justify-content: space-between;
+    color: black;
 }
 div.form{
     margin-top: 10%;

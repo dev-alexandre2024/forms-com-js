@@ -16,5 +16,13 @@ function validarformulario(event){
      resultado += `<br>Nome ${nome}`;
      resultado += `<br>Cidade ${cidade}`;
     
+     var h1 = document.getElementById('text')
+     h1.textContent = Nome.value;   
+     var Nome = document.getElementById('Nome')
+
+     var Cidade = document.getElementById('Cidade')
+     
+     
+
      document.getElementById('resultado').innerHTML.resultado;
 }
