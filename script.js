@@ -1,7 +1,7 @@
 function validarformulario(){
     var nome = document.getElementById('nome')
-    var idade = parseInt(document.getElemenById('idade').value);
-    var cidade = document.getElemenById('cidade').value;
+    var idade = parseInt(document.getElementById('idade').value);
+    var cidade = document.getElementById('cidade').value;
 
 
     let resultado = "";
@@ -16,8 +16,14 @@ function validarformulario(){
      resultado += `<br>Nome ${nome}`;
      resultado += `<br>Cidade ${cidade}`;
     
-     var h1 = document.getElementById('text')
-     h1.textContent = Nome.value;   
+     var h1nome = document.getElementById('text');
+     h1nome.textContent = `Olá${nome.value}`   ;
+    
+     var h1idade = document.getElementById('idade');
+     h1idade.textContent = `Você Tem ${idade} anos`  ;
+    
+     var h1cidade = document.getElementById('cidade');
+     h1cidade.textContent = `E Mora Em${cidade}`   ;
 
      
      
